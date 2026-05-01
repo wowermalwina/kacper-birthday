@@ -27,19 +27,19 @@ button {
 
 .captcha-grid {
   display: grid;
-  grid-template-columns: repeat(3, 120px);
-  gap: 16px;
-  justify-content: center;
-  margin: 32px 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  max-width: 360px;
+  margin: 24px auto;
 }
 
 .captcha-item {
   width: 120px;
   height: 120px;
   padding: 16px;
-  background: #273449;
+  background: #474d57;
   border: 2px solid transparent;
-  border-radius: 10px;
+  aspect-ratio: 1 / 1;
   cursor: pointer;
 }
 
